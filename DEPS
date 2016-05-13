@@ -166,8 +166,6 @@ deps = {
   'src/v8':
     #(Var("chromium_git")) + '/v8/v8.git@4cee62a8bd81e100e6257cfebeaa1064f8a33774'
     (Var("nwjs_git")) + '/v8.git@nw13',
-  'src/content/nw':
-    (Var("nwjs_git")) + '/nw.js.git@origin/nw13',
   'src/third_party/node':
     (Var("nwjs_git")) + '/node.git@origin/nw13',
 }
